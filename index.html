@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloc de Notas</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+<body>
+    <div class="form-container">
+        <h1>Bloc de Notas</h1>
+
+        <form id="formulario">
+            <div>
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" required>
+            </div>
+
+            <div>
+                <label for="contenido">Contenido:</label>
+                <textarea id="contenido" required></textarea>
+            </div>
+
+
+            <div>
+                <button type="submit">Guardar</button>
+                <button type="button" onclick="limpiarFormulario()">Limpiar</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="listado"></div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+body {
+    background-color: #e6e5e5;
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    align-items: start;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #252525;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #424141;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0e4c08;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+
+
+button.btn-danger {
+    background-color: #960303;
+}
+
+.card {
+    background-color:#e8cfc1;                                                    
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: #0e4c08;
+}
+
+.card p {
+    color: #333;
+}
